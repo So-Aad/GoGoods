@@ -1,0 +1,106 @@
+.signup-section .floatingP{
+    color: white;
+   letter-spacing: 3px;
+   line-height: 2;
+    text-align: center;
+    font-weight: bold;
+    animation: float 1s ease-in-out infinite;
+
+}
+.signup-section .container{
+    background-color: #7b50ef;
+    border-radius: 10px;
+}
+.signup-section .btn{
+    background-color: white;
+    color:#7b50ef;
+    font-weight: bold;
+    
+
+}
+.signup-section .loginP{
+    color:white;
+    font-size: larger;
+    font-weight: bold;
+}
+.loginP a{
+    text-decoration: none;
+    color:#24034b;
+}
+.signup-section .btn:hover{
+    background-color: #24034b;
+    border: 2px solid white;
+    color:white;
+    cursor: pointer;
+    
+}
+.signup-section label{
+    color:#24034b;
+    font-weight: bold;
+}
+.signup-section .form-control{
+    border:2px solid white;
+    background-color: transparent;
+    color:white;
+   
+}
+.form-title{
+    color: white;
+    font-weight: bold;
+   text-decoration: underline #24034b 3px;
+}
+.signup-section img{
+    animation: float 1s ease-in-out infinite;
+}
+@keyframes float {
+    0%, 100% {
+      transform: translateY(0); /* Starting and ending position */
+    }
+    50% {
+      transform: translateY(-10px); /* Move up by 10px */
+    }
+  }
+
+  .logo{
+    color:#24034b;
+    font-family: "Bebas Neue", serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+        
+    
+}
+.navbar{
+    border-bottom: 2px solid #7b50ef;
+    border-top: 2px solid #7b50ef;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    /* Adjust logo size */
+}
+
+.navbar-nav .nav-link {
+    margin-right: 1rem;
+}
+.navbar-nav .nav-link:hover{
+    color:#24034b;
+    
+}
+.footer{
+    background: rgb(174, 208, 238);
+    background: radial-gradient(circle, rgba(174, 208, 238, 1) 0%, rgba(113, 64, 226, 1) 100%);
+}
+.footer p{
+    font-weight:600;
+    font-size: large;
+}
+.footer a{
+    text-decoration: none;
+    color: #24034b;
+}
+.footer.social-icons a{
+    color:#24034b;
+}
+.social-icons a:hover{
+    color: white;
+}

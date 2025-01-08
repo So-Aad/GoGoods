@@ -1,0 +1,424 @@
+html {
+    overflow-x: hidden;
+}
+
+.hero-section {
+    height: 100vh;
+    background: rgb(174, 208, 238);
+    background: radial-gradient(circle, rgba(174, 208, 238, 1) 0%, rgba(113, 64, 226, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero-section .btn {
+    background-color: #7b50ef;
+    color: white;
+    font-weight: bold;
+}
+
+.hero-section .btn:hover {
+    background-color: transparent;
+    border: 2px solid white;
+
+}
+
+.logo {
+    color: #24034b;
+    font-family: "Bebas Neue", serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar {
+    border-bottom: 2px solid #7b50ef;
+    border-top: 2px solid #7b50ef;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    /* Adjust logo size */
+}
+
+.navbar-nav .nav-link {
+    margin-right: 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #24034b;
+
+}
+
+.aboutImg {
+    background-image: url(images/del.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+    border: 3px solid #7b50ef;
+    border-radius: 15px;
+}
+
+.about-section h2 {
+    color: #24034b;
+    font-weight: bold;
+}
+
+.about-section p {
+    line-height: 30px;
+}
+
+.hero-section h1,
+.hero-section p {
+    margin: 10px;
+    padding: 0;
+
+}
+
+.hero-section h1 {
+    color: white;
+    font-size: 4.5rem;
+    font-weight: bold;
+    animation: flip 2s ease-in-out;
+    display: inline-block;
+}
+
+@keyframes flip {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.hero-section p {
+    color: #24034b;
+    font-size: 1.5rem;
+
+}
+
+.hero-section h1 span {
+    color: #24034b;
+}
+
+.testimonial {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* Makes the image circular */
+    object-fit: cover;
+    /* Ensures the image fits perfectly inside the circle */
+    margin-bottom: 10px;
+    border: 3px solid #4f46e5;
+    /* Optional border */
+}
+
+.testimonials h2 {
+    color: #24034b;
+    font-weight: bold;
+}
+
+.testimonials .cont {
+    background-color: #7b50ef;
+    border-radius: 10px;
+
+}
+
+.testimonials strong {
+    color: white;
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+}
+
+.why-choose-us {
+    background-color: #f8fafc;
+    /* Light background */
+    padding: 60px 0;
+}
+
+.why-choose-us h2 {
+    color: #24034b;
+    font-weight: bold;
+}
+
+.why-choose-us .card {
+    border: 2px solid #4f46e5;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.why-choose-us .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.why-choose-us .icon {
+    font-size: 3rem;
+    color: #4f46e5;
+    /* Accent color */
+}
+
+.why-choose-us h5 {
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.why-choose-us p {
+    color: #6b7280;
+    /* Subtle gray for text */
+}
+
+.services-section h2 {
+    color: #24034b;
+    font-weight: bold;
+
+}
+
+.services-section .card {
+    background: rgb(174, 208, 238);
+    background: radial-gradient(circle, rgba(174, 208, 238, 1) 0%, rgba(113, 64, 226, 1) 100%);
+}
+
+.services-section .serviceBtn {
+    background-color: transparent;
+    border-radius: 25px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid white;
+    text-decoration: none;
+
+
+}
+
+.services-section .serviceBtn:hover {
+    background-color: white;
+    color: #24034b;
+    border: 2px solid #24034b;
+}
+
+.services-section h3 {
+    color: white;
+    font-weight: bold;
+}
+
+.contact-section p {
+    color: white;
+    background: rgb(174, 208, 238);
+    background: radial-gradient(circle, rgba(174, 208, 238, 1) 0%, rgba(113, 64, 226, 1) 100%);
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.contact-section .btn {
+    background-color: #7b50ef;
+    color: white;
+    font-weight: bold;
+}
+
+.contact-section .btn:hover {
+    background-color: white;
+    border: 2px solid #7b50ef;
+    color: #24034b;
+    cursor: pointer;
+
+}
+
+.contact-section label {
+    color: #24034b;
+}
+
+.contact-section .form-control {
+    border: 1px solid #24034b;
+}
+
+.contact-section img {
+    animation: float 1.5s ease-in-out infinite;
+}
+
+.footer {
+    background: rgb(174, 208, 238);
+    background: radial-gradient(circle, rgba(174, 208, 238, 1) 0%, rgba(113, 64, 226, 1) 100%);
+}
+
+.footer p {
+    font-weight: 600;
+    font-size: large;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #24034b;
+}
+
+.footer.social-icons a {
+    color: #24034b;
+}
+
+.social-icons a:hover {
+    color: white;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+        /* Starting and ending position */
+    }
+
+    50% {
+        transform: translateY(-10px);
+        /* Move up by 10px */
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 20px;
+    }
+
+
+    .navbar-nav .nav-link {
+        margin-right: 0.5rem;
+    }
+
+    .testimonial {
+        width: 150px;
+        height: 150px;
+    }
+
+    .why-choose-us .icon {
+        font-size: 2.5rem;
+    }
+
+    .aboutImg {
+        height: 180px;
+        background-size: contain;
+        /* Make the image smaller */
+        background-position: center center;
+        border: none
+            /* Adjust height for smaller screens */
+    }
+
+    .about-section p {
+        text-align: center;
+    }
+
+    .about-section h2 {
+        text-align: center;
+    }
+
+    .contact-section .row {
+        flex-direction: column;
+        /* Stack form and text/image on small screens */
+    }
+
+    .contact-section img {
+        margin-top: 20px;
+        /* Add space above the image */
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-section h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .why-choose-us h5 {
+        font-size: 1rem;
+    }
+
+    .why-choose-us p {
+        font-size: 0.9rem;
+    }
+}
+
+.process-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.process-title {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #24034b;
+    text-align: center;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.step-icon {
+    font-size: 2rem;
+    color: #007BFF;
+    flex-shrink: 0;
+}
+
+.step-content {
+    text-align: left;
+}
+
+.step-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.step-description {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.action-button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #24034b;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    width: fit-content;
+    transition: background-color 0.3s;
+}
+
+.action-button:hover {
+    background-color: transparent;
+    border: #24034b 2px solid;
+    color: #24034b;
+}

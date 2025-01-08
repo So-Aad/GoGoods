@@ -1,0 +1,91 @@
+
+.login-section .formContainer{
+    background-color:#24034b;
+  
+}
+.login-section .logbtn{
+    background-color: white;
+    color:#24034b;
+    font-weight: bold;
+
+}
+.imgContainer{
+    border:#24034b 2px solid;
+}
+.login-section .signupP{
+    color:black;
+    font-size: larger;
+    font-weight: bold;
+}
+.signupP a{
+    text-decoration: none;
+    color:#24034b;
+}
+.login-section .logbtn:hover{
+    background-color: transparent;
+    border: 2px solid white;
+    color:white;
+    cursor: pointer;
+    
+}
+
+.login-section .form-control{
+    border:5px solid white;
+    background-color: white;
+    color:#24034b;
+    font-weight: 600;
+   
+}
+.login-section .form-control:focus{
+    outline: none;
+}
+.form-title{
+    color: #7b50ef;
+    font-weight: bold;
+    
+}
+
+
+  .logo{
+    color:#24034b;
+    font-family: "Bebas Neue", serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+        
+    
+}
+.navbar{
+    border-bottom: 2px solid #7b50ef;
+    border-top: 2px solid #7b50ef;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    /* Adjust logo size */
+}
+
+.navbar-nav .nav-link {
+    margin-right: 1rem;
+}
+.navbar-nav .nav-link:hover{
+    color:#24034b;
+    
+}
+.footer{
+    background: rgb(174, 208, 238);
+    background: radial-gradient(circle, rgba(174, 208, 238, 1) 0%, rgba(113, 64, 226, 1) 100%);
+}
+.footer p{
+    font-weight:600;
+    font-size: large;
+}
+.footer a{
+    text-decoration: none;
+    color: #24034b;
+}
+.footer.social-icons a{
+    color:#24034b;
+}
+.social-icons a:hover{
+    color: white;
+}
